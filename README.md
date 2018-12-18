@@ -23,17 +23,20 @@ The mean, standard error and "worst" or largest (mean of the three largest value
 Desision rules with respective predictive strength(the number is the number of records):
 
 1. Malignant
+
 ![malignant](https://user-images.githubusercontent.com/44185972/50152152-dbda2980-02fd-11e9-8041-f5fb07cb935e.png)
+
 2. Benign
+
 ![benign](https://user-images.githubusercontent.com/44185972/50152173-e694be80-02fd-11e9-9a2e-178e56ab6cbc.png)
 
-**Due to the high predictive strength of these features, a decision tree is used
+**Due to the high predictive strength of these features, a decision tree is used**
 
 Alhough some features have 100% predictive strength, they are not sufficient to build the decision tree. For instance, even though perimeter_worst>133.5 has 100% predictive strength in predicting malignancy, it does not include all malignant cells as some maliganant cells do not have perimeter_worst>133,5
 
 Feature selection for the decision tree is carried out to select appropriate features for the decision tree.
 
-**Diagnostic strengths of different features:
+**Diagnostic strengths of different features:**
 
 91% perimeter_worst
 concave points_mean
